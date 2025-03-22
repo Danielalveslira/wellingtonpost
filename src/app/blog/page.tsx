@@ -10,14 +10,14 @@ export default function BlogPage() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <header className="mb-12">
           <h1 className="">
-            <span className="text-5xl text-blue-800 font-bold">O poço</span>{" "}
+            <span className="text-5xl text-blue-800 font-bold">Wellington</span>{" "}
             <span className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
               {" "}
-              de Wellington{" "}
+              Post{" "}
             </span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            A profundidade do texto varia conforme o dia. 🤝
+            Nem sempre é diário, mas sempre é interessante 🤝
           </p>
         </header>
 
