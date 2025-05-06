@@ -1,7 +1,6 @@
 import { getSortedPostsData, formatTopicDisplay } from "@/lib/posts";
 import Link from "next/link";
 import TopicTags from "@/components/TopicTags";
-import { Analytics } from "@vercel/analytics/react";
 
 export default function BlogPage() {
   const posts = getSortedPostsData();
