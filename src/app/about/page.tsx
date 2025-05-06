@@ -19,20 +19,19 @@ export default function AboutPage() {
               No{" "}
               <span className="text-2xl text-blue-800 font-bold">
                 {" "}
-                Poço de Wellington{" "}
+                Wellington Post{" "}
               </span>
-              , minha missão é te afundar em boas ideias.
+              , Você pode encontrar artigos interessantes — ou talvez não.
             </h2>
             <p className="text-gray-600 dark:text-gray-300">
-              Bem-vindo ao Poço de Wellington! Este é o espaço onde tecnologia,
-              crescimento pessoal e profissional se encontram. Aqui, você vai
-              encontrar insights sobre as últimas inovações tecnológicas, dicas
-              para aprimorar suas habilidades e estratégias para se tornar a
-              melhor versão de si mesmo, tanto no trabalho quanto na vida
-              pessoal. A ideia é evoluir sempre, explorar novos desafios e,
-              claro, criar soluções que façam a diferença no seu dia a dia.
-              Vamos juntos nessa jornada de aprendizado e evolução, porque o
-              futuro já está acontecendo!
+              Bem-vindo! Este é o espaço onde tecnologia, crescimento pessoal e
+              profissional se encontram. Aqui, você vai encontrar insights sobre
+              as últimas inovações tecnológicas, dicas para aprimorar suas
+              habilidades e estratégias para se tornar a melhor versão de si
+              mesmo, tanto no trabalho quanto na vida pessoal. A ideia é evoluir
+              sempre, explorar novos desafios e, claro, criar soluções que façam
+              a diferença no seu dia a dia. Vamos juntos nessa jornada de
+              aprendizado e evolução, porque o futuro já está acontecendo!
             </p>
           </section>
 
@@ -67,18 +66,7 @@ export default function AboutPage() {
                 </li>
                 <li>
                   Você pode ou não receber uma resposta, dependendo de muitos
-                  fatores. Fico muito feliz em receber tantos e-mails, mas isso
-                  significa que não posso garantir que conseguirei responder a
-                  todos. Claro, poderia enviar respostas automáticas, de uma
-                  palavra só, ou até contratar alguém para responder por mim,
-                  mas prefiro não fazer isso. Quero ser autêntico nas respostas
-                  que envio, então, sempre que consigo um tempo livre ou um dia
-                  mais tranquilo, tento colocar as respostas em dia. Às vezes, o
-                  e-mail chega no momento certo e consigo responder rapidinho.
-                  Outras vezes, você vai acabar recebendo uma resposta meses
-                  depois, quando talvez já tenha esquecido que enviou o e-mail –
-                  e vai ser meio estranho. Mas, se você nunca receber uma
-                  resposta, saiba que você definitivamente não foi ignorado.
+                  fatores.
                 </li>
               </ul>
             </ul>
