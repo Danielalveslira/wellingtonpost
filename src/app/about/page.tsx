@@ -21,7 +21,7 @@ export default function AboutPage() {
                 {" "}
                 Wellington Post{" "}
               </span>
-              , Você pode encontrar artigos interessantes — ou talvez não.
+              , Você pode encontrar artigos interessantes 🤝
             </h2>
             <p className="text-gray-600 dark:text-gray-300">
               Bem-vindo! Este é o espaço onde tecnologia, crescimento pessoal e
@@ -37,9 +37,8 @@ export default function AboutPage() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Adoramos ouvir nossos leitores—seja um elogio, crítica, sugestão,
-              feedback ou até mesmo seus pensamentos mais excêntricos sobre o
-              mundo.
+              Adoro ouvir nossos leitores! seja um elogio, crítica, sugestão ou
+              feedback.
             </h2>
 
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
@@ -51,24 +50,24 @@ export default function AboutPage() {
             </h4>
             <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
               <li>
-                seja elogios, críticas construtivas, mensagens de ódio &#40;de
-                boa índole&#41;, suas próprias reflexões sobre o mundo, uma
-                piada engraçada, uma piada sem graça, suas metas de
-                procrastinação ou qualquer outra coisa que queira compartilhar
-                conosco. O que acontece aqui é o seguinte:
+                seja elogios, críticas construtivas, mensagens de ódio (de boa
+                índole), suas próprias reflexões sobre o mundo, uma piada
+                engraçada, uma piada sem graça, suas metas de procrastinação ou
+                qualquer outra coisa que queira compartilhar conosco. O que
+                acontece aqui é o seguinte:
+                <ul className="list-decimal list-inside pl-4 mt-2">
+                  <li>
+                    Envie-me um e-mail! Adoro receber suas mensagens, e prometo
+                    uma coisa: vou ler sua mensagem, sempre. Às vezes, pode
+                    demorar um pouco, mas ainda não cheguei ao ponto de arquivar
+                    um e-mail sem ao menos dar uma olhada nele.
+                  </li>
+                  <li>
+                    Você pode ou não receber uma resposta, dependendo de muitos
+                    fatores.
+                  </li>
+                </ul>
               </li>
-              <ul className="list-decimal list-inside pl-4">
-                <li>
-                  Envie-me um e-mail! Adoro receber suas mensagens, e prometo
-                  uma coisa: vou ler sua mensagem, sempre. Às vezes, pode
-                  demorar um pouco, mas ainda não cheguei ao ponto de arquivar
-                  um e-mail sem ao menos dar uma olhada nele.
-                </li>
-                <li>
-                  Você pode ou não receber uma resposta, dependendo de muitos
-                  fatores.
-                </li>
-              </ul>
             </ul>
           </section>
 
