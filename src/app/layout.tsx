@@ -1,4 +1,4 @@
-// import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
@@ -385,7 +385,7 @@ export default function RootLayout({
             </div>
           </footer>
         </ThemeProvider>
-        {/* <Analytics /> */}
+        <Analytics />
       </body>
     </html>
   );
