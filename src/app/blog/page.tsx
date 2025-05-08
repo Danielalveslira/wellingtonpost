@@ -5,6 +5,11 @@ import TopicTags from "@/components/TopicTags";
 export default function BlogPage() {
   const posts = getSortedPostsData();
 
+  // Coletando todas as tags únicas
+  const allTopics = Array.from(
+    new Set(posts.flatMap((post) => post.topics))
+  ).sort();
+
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -12,7 +17,6 @@ export default function BlogPage() {
           <h1 className="">
             <span className="text-5xl text-blue-800 font-bold">Wellington</span>{" "}
             <span className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              {" "}
               Post{" "}
             </span>
           </h1>
@@ -20,6 +24,25 @@ export default function BlogPage() {
             Nem sempre é diário, mas sempre é interessante 🤝
           </p>
         </header>
+
+        {/* Seção dedicada às etiquetas */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
+            Explore os Tópicos
+          </h2>
+          <div className="flex flex-wrap gap-4">
+            {allTopics.map((topic) => (
+              <Link
+                key={topic}
+                href={`/topics/${topic}`}
+                className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
+              >
+                {topic.charAt(0).toUpperCase() +
+                  topic.slice(1).replace(/-/g, " ")}
+              </Link>
+            ))}
+          </div>
+        </section>
 
         <div className="grid gap-8 md:grid-cols-2">
           {posts.map((post) => {
