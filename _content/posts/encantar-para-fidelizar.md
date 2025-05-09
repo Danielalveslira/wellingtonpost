@@ -3,7 +3,7 @@ title: "Encantar para fidelizar: como o pós-venda transforma clientes em promot
 date: "2025-05-08"
 authors:
   - name: "Junior Silva"
-    link: "https://github.com/Danielalveslira"
+    link: "https://www.linkedin.com/in/juniorjfds/"
 description: "Júnior Silva – Supervisor de Gestão de Clientes com foco em Pós-Vendas"
 topics: ["barras-de-ouro"]
 ---
