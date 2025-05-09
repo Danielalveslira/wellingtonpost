@@ -13,17 +13,18 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-white dark:bg-zinc-900">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <header className="mb-12">
+        {/* Header off */}
+        {/* <header className="mb-12">
           <h1 className="">
-            <span className="text-5xl text-blue-800 font-bold">Wellington</span>{" "}
-            <span className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            <span className="text-5xl text-blue-800 font-bold">Tab</span>{" "}
+            <span className="text-3xl font-bold text-amber-500 dark:text-amber-400 mb-4">
               Post{" "}
             </span>
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
             Nem sempre é diário, mas sempre é interessante 🤝
           </p>
-        </header>
+        </header> */}
 
         {/* Seção dedicada às etiquetas */}
         <section className="mb-12">

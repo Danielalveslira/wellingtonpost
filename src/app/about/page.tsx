@@ -19,9 +19,10 @@ export default function AboutPage() {
               No{" "}
               <span className="text-2xl text-blue-800 font-bold">
                 {" "}
-                Wellington Post{" "}
+                deliramente
               </span>
-              , Você pode encontrar artigos interessantes 🤝
+              , Confira artigos publicados por mim e, mais importante, por
+              grandes nomes do mercado. 🤝
             </h2>
             <p className="text-gray-600 dark:text-gray-300">
               Bem-vindo! Este é o espaço onde tecnologia, crescimento pessoal e
