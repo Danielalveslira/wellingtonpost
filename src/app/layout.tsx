@@ -132,7 +132,7 @@ export default function RootLayout({
 
                 {/* Mobile Menu */}
                 <div className="hidden peer-checked:block border-t border-gray-200 dark:border-gray-700">
-                  <div className="flex flex-col space-y-4 px-2 py-4">
+                  <div className="flex flex-row flex-wrap space-x-4 px-2 py-4">
                     <Link
                       href="/about"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium"
@@ -267,79 +267,19 @@ export default function RootLayout({
 
           <main className="flex-grow">{children}</main>
 
-          <footer className="bg-white dark:bg-zinc-900 border-t border-gray-200 dark:border-gray-700">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-                    Links Rápidos
-                  </h3>
-                  <ul className="space-y-3">
-                    {/* <li>
-                      <Link
-                        href="/topics/algoritmos"
-                        className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                      >
-                        Algoritmos e Estruturas de Dados
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/topics/system-design"
-                        className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                      >
-                        System Design
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/topics/ddd"
-                        className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                      >
-                        Domain-Driven Design
-                      </Link>
-                    </li> */}
-
-                    <li>
-                      <Link
-                        href="/about"
-                        className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                      >
-                        Well 📫️
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4">
-                    Links Úteis
-                  </h3>
-                  <ul className="space-y-3">
-                    <li></li>
-                    <li>
-                      {/* <Link
-                        href="/events"
-                        className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                      >
-                        Participar dos Eventos
-                      </Link> */}
-                    </li>
-                    <li>
-                      <a
-                        href="mailto:dnllira1@gmail.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
-                      >
-                        Me mande um e-mail!
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
+          <footer>
+            <div>
+              <div className="border-t border-gray-200 dark:border-gray-700 p-5">
                 <p className="text-center text-gray-500 dark:text-gray-400 text-sm">
                   © {new Date().getFullYear()} Dnllira
+                  <span className="m-4">
+                    <Link
+                      href="/termos-de-uso"
+                      className="text-blue-700 dark:text-blue-400 hover:underline"
+                    >
+                      Termos de Uso
+                    </Link>
+                  </span>
                 </p>
               </div>
             </div>
