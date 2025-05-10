@@ -37,7 +37,7 @@ export default function RootLayout({
                       <span className="text-xl font-bold text-zinc-900 dark:text-zinc-100 leading-tight">
                         <h1>
                           <span className="text-2xl text-zinc-800 font-bold dark:text-zinc-100">
-                            deliramente
+                            deLiraMente
                           </span>
                         </h1>
                       </span>
@@ -185,7 +185,7 @@ export default function RootLayout({
                 <Link href="/" className="flex items-center space-x-3">
                   <div className="flex flex-col">
                     <span className="text-2xl text-zinc-800 font-bold dark:text-zinc-100">
-                      deliramente
+                      deLiraMente
                     </span>
                     <span className="text-sm text-gray-500 dark:text-gray-400">
                       Explorador de Ideias.

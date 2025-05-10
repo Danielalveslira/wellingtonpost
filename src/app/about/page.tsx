@@ -9,20 +9,15 @@ export default function AboutPage() {
           <p className="text-xl text-gray-600 dark:text-gray-300">
             Ao longo da minha jornada na tecnologia, estou aprendendo a criar e
             inovar. Cada projeto é uma oportunidade de crescer, experimentar
-            novas soluções e enfrentar desafios únicos! 💫
+            novas soluções e enfrentar desafios únicos!
           </p>
         </header>
 
         <div className="space-y-12">
           <section>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              No{" "}
-              <span className="text-2xl text-blue-800 font-bold">
-                {" "}
-                deliramente
-              </span>
-              , Confira artigos publicados por mim e, mais importante, por
-              grandes nomes do mercado. 🤝
+              No deliramente , Confira artigos publicados por mim e, mais
+              importante, por grandes nomes do mercado. 🤝
             </h2>
             <p className="text-gray-600 dark:text-gray-300">
               Bem-vindo! Este é o espaço onde tecnologia, crescimento pessoal e
@@ -51,11 +46,11 @@ export default function AboutPage() {
             </h4>
             <ul className="list-disc list-inside space-y-2 text-gray-600 dark:text-gray-300">
               <li>
-                seja elogios, críticas construtivas, mensagens de ódio (de boa
-                índole), suas próprias reflexões sobre o mundo, uma piada
-                engraçada, uma piada sem graça, suas metas de procrastinação ou
-                qualquer outra coisa que queira compartilhar conosco. O que
-                acontece aqui é o seguinte:
+                seja elogios, críticas construtivas, mensagens de ódio &#40;de
+                boa índole&#41;, suas próprias reflexões sobre o mundo, uma
+                piada engraçada, uma piada sem graça, suas metas de
+                procrastinação ou qualquer outra coisa que queira compartilhar
+                conosco. O que acontece aqui é o seguinte:
                 <ul className="list-decimal list-inside pl-4 mt-2">
                   <li>
                     Envie-me um e-mail! Adoro receber suas mensagens, e prometo
