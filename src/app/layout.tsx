@@ -272,7 +272,7 @@ export default function RootLayout({
               <div className="border-t border-gray-200 dark:border-gray-700 p-5">
                 <p className="text-center text-gray-500 dark:text-gray-400 text-sm">
                   © {new Date().getFullYear()} Dnllira
-                  <span className="">
+                  <span className="m-4">
                     <Link
                       href="/termos-de-uso"
                       className="text-blue-700 dark:text-blue-400 hover:underline"
