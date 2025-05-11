@@ -24,7 +24,7 @@ export default function RootLayout({
         className={`${inter.className} bg-gray-50 dark:bg-zinc-900 text-gray-900 dark:text-gray-100 antialiased min-h-screen flex flex-col`}
       >
         <ThemeProvider>
-          <nav className="sticky top-0 bg-white dark:bg-zinc-900 shadow-sm z-50">
+          <nav className="top-0 bg-white dark:bg-zinc-900 shadow-sm z-50">
             {" "}
             {/* Background color header */}
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -36,7 +36,7 @@ export default function RootLayout({
                     <div className="flex flex-col">
                       <span className="text-xl font-bold text-zinc-900 dark:text-zinc-100 leading-tight">
                         <h1>
-                          <span className="text-2xl text-zinc-800 font-bold dark:text-zinc-100">
+                          <span className="text-1xl text-zinc-800 font-bold dark:text-zinc-100">
                             deLiraMente
                           </span>
                         </h1>
@@ -184,7 +184,7 @@ export default function RootLayout({
               <div className="hidden md:flex items-center justify-between h-20">
                 <Link href="/" className="flex items-center space-x-3">
                   <div className="flex flex-col">
-                    <span className="text-2xl text-zinc-800 font-bold dark:text-zinc-100">
+                    <span className="text-1xl text-zinc-800 font-bold dark:text-zinc-100">
                       deLiraMente
                     </span>
                     <span className="text-sm text-gray-500 dark:text-gray-400">
