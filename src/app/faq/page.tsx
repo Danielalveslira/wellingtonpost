@@ -12,8 +12,8 @@ export default function AboutPage() {
           </p>
         </header>
 
-        <div className="space-y-12">
-          <section>
+        <div>
+          <section className="space-y-3">
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
               Esse site é um blog? Ou é um site de verdade?
             </h2>

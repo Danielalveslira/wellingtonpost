@@ -19,83 +19,77 @@ export default function AboutPage() {
             </h2>
             <ol className="list-decimal list-inside">
               <li>
-                O deLiraMente existe com o objetivo de oferecer conteúdos de
-                valor real, textos que informam, inspiram ou provocam reflexão.
+                O deLiraMente existe pra publicar conteúdo que vale o seu tempo.
+                Se não informar, inspirar ou pelo menos cutucar sua cabeça, não
+                entra.
               </li>
               <li>
-                Consideramos “conteúdo de valor” qualquer texto que traga algum
-                tipo de contribuição útil, seja em forma de informação,
-                experiência, análise ou visão pessoal.
+                “Conteúdo de valor” aqui significa qualquer coisa que agregue
+                algo, informação, experiência, análise, visão pessoal. Ou tudo
+                junto.
               </li>
               <li>
-                Damos prioridade à qualidade e não à quantidade. O objetivo é
-                simples:
-                <strong> que cada leitura aqui faça valer seu tempo</strong>.
+                Quantidade? Não é a meta. Qualidade é. Um texto bom &#62; cinco
+                medianos.
               </li>
               <li>
-                Não usamos práticas abusivas de marketing, anúncios ocultos ou
-                manipulação de engajamento. Aqui, você navega com tranquilidade
-                e clareza.
+                Nada de anúncios espertinhos, pop-ups invasivos ou “clique aqui
+                pra saber o que aconteceu depois”. Navegação limpa. Sem truques.
               </li>
               <li>
-                O deLiraMente nunca venderá seus dados e nunca os compartilhará
-                com terceiros.
+                Seus dados? Não queremos. Não vendemos, não trocamos, não
+                compartilhamos.
               </li>
               <li>
-                Coletamos apenas o mínimo necessário para que o site funcione.
-                Quanto menos dados sobre você tivermos, melhor para nós dois .
-              </li>
-            </ol>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Usuário
-            </h2>
-
-            <ol className="list-decimal list-inside">
-              <li>
-                Ao navegar, comentar ou colaborar, você está entrando em um
-                espaço que valoriza o bom senso, a empatia e o diálogo.
-              </li>
-              <li>
-                Comentários ou interações que desrespeitem outras pessoas, que
-                sejam agressivos, irônicos de forma destrutiva ou ofensivos,
-                poderão ser removidos.
-              </li>
-              <li>
-                Manipulação de interações, spam, uso de bots ou qualquer forma
-                de interferência artificial não são permitidos.
+                Coletamos o mínimo necessário pra manter o site funcionando.
+                Quanto menos a gente souber sobre você, melhor pra todo mundo.
               </li>
             </ol>
           </section>
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              Direitos Autorais e Propriedade Intelectual
+              Sobre você &#40;o usuário&#41;
             </h2>
 
             <ol className="list-decimal list-inside">
               <li>
-                Os autores que publicam no deLiraMente, sejam eles o titular do
-                blog ou colaboradores convidados, mantêm os direitos autorais
-                sobre seus textos e são responsáveis pelo conteúdo que
-                compartilham.
+                Ao comentar ou interagir, espera-se o mínimo: bom senso,
+                respeito e um cérebro funcionando.
               </li>
               <li>
-                Ao submeter qualquer material para publicação, o autor declara
-                possuir os direitos sobre o conteúdo ou garantir que seu uso
-                está de acordo com exceções legais, como o &quot;uso justo&quot;
-                &#40;Fair Use&#41; previsto na legislação aplicável.
+                Comentários tóxicos, agressivos ou ironias destrutivas vão
+                direto pro limbo.
               </li>
               <li>
-                O domínio <b>deLiraMente.com.br</b> e a identidade visual do
-                blog são propriedades intelectuais do responsável pelo site.
+                Spam, bots ou qualquer tentativa de manipular o sistema? Também
+                não. Vai ser limado.
+              </li>
+            </ol>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+              Direitos Autorais & Coisas Sérias
+            </h2>
+
+            <ol className="list-decimal list-inside">
+              <li>
+                Todo mundo que publica aqui &#40;incluindo quem vos escreve&#41;
+                mantém os direitos sobre seus textos. Publicou? É seu. Mas
+                também é sua responsabilidade.
               </li>
               <li>
-                A estrutura técnica utilizada para hospedar e manter o blog pode
-                incluir recursos de código aberto, respeitando sempre as
-                licenças dos projetos utilizados.
+                Se você enviar algo pra publicação, partimos do princípio de que
+                você tem o direito de usar aquilo. Se não tiver, não envie.
+              </li>
+              <li>
+                O domínio, identidade visual e toda a carinha do deLiraMente são
+                propriedade do responsável pelo site. Não copie. Cria a sua.
+              </li>
+              <li>
+                A infraestrutura pode usar código aberto, sempre respeitando as
+                licenças dos projetos. Open source é amor.
               </li>
             </ol>
           </section>
