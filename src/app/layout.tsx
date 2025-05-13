@@ -280,6 +280,14 @@ export default function RootLayout({
                       Termos de Uso
                     </Link>
                   </span>
+                  <span>
+                    <Link
+                      href="/faq"
+                      className="text-blue-700 dark:text-blue-400 hover:underline"
+                    >
+                      FAQ
+                    </Link>
+                  </span>
                 </p>
               </div>
             </div>

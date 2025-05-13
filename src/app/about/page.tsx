@@ -16,7 +16,7 @@ export default function AboutPage() {
         <div className="space-y-12">
           <section>
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
-              No deliramente , Confira artigos publicados por mim e, mais
+              No deliramente, Confira artigos publicados por mim e, mais
               importante, por grandes nomes do mercado. 🤝
             </h2>
             <p className="text-gray-600 dark:text-gray-300">

@@ -20,8 +20,7 @@ export default function AboutPage() {
             <ol className="list-decimal list-inside">
               <li>
                 O deLiraMente existe com o objetivo de oferecer conteúdos de
-                valor real,
-                <b>textos que informam, inspiram ou provocam reflexão</b>.
+                valor real, textos que informam, inspiram ou provocam reflexão.
               </li>
               <li>
                 Consideramos “conteúdo de valor” qualquer texto que traga algum
@@ -31,7 +30,7 @@ export default function AboutPage() {
               <li>
                 Damos prioridade à qualidade e não à quantidade. O objetivo é
                 simples:
-                <strong>que cada leitura aqui faça valer seu tempo</strong>.
+                <strong> que cada leitura aqui faça valer seu tempo</strong>.
               </li>
               <li>
                 Não usamos práticas abusivas de marketing, anúncios ocultos ou
@@ -44,10 +43,7 @@ export default function AboutPage() {
               </li>
               <li>
                 Coletamos apenas o mínimo necessário para que o site funcione.
-                <b>
-                  Quanto menos dados sobre você tivermos, melhor para nós dois
-                </b>
-                .
+                Quanto menos dados sobre você tivermos, melhor para nós dois .
               </li>
             </ol>
           </section>
@@ -82,11 +78,9 @@ export default function AboutPage() {
             <ol className="list-decimal list-inside">
               <li>
                 Os autores que publicam no deLiraMente, sejam eles o titular do
-                blog ou colaboradores convidados,
-                <b>
-                  mantêm os direitos autorais sobre seus textos e são
-                  responsáveis pelo conteúdo que compartilham.
-                </b>
+                blog ou colaboradores convidados, mantêm os direitos autorais
+                sobre seus textos e são responsáveis pelo conteúdo que
+                compartilham.
               </li>
               <li>
                 Ao submeter qualquer material para publicação, o autor declara
