@@ -32,7 +32,7 @@ export default function BlogPage() {
           </div>
         </section>
 
-        <div className="grid gap-8 md:grid-cols-2">
+        <div className="grid gap-8 md:grid-cols-1">
           {posts.map((post) => {
             const { visibleTopics, hiddenTopics, hasHidden } =
               formatTopicDisplay(post.topics);
@@ -40,7 +40,7 @@ export default function BlogPage() {
             return (
               <article
                 key={post.id}
-                className="flex flex-col bg-white dark:bg-zinc-900 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-lg transition-shadow"
+                className="flex flex-row bg-white dark:bg-zinc-900"
               >
                 <div className="p-6">
                   <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400 mb-3">
@@ -52,16 +52,16 @@ export default function BlogPage() {
                     hasHidden={hasHidden}
                   />
                   <Link href={`/posts/${post.id}`}>
-                    <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-3 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                    <h2 className="text-xl font-semibold text-gray-600 dark:text-white mb-3 hover:text-zinc-900 dark:hover:text-blue-400 transition-colors">
                       {post.title}
                     </h2>
                   </Link>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4">
+                  {/* <p className="text-gray-600 dark:text-gray-300 mb-4">
                     {post.description}
-                  </p>
+                  </p> */}
                   <Link
                     href={`/posts/${post.id}`}
-                    className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+                    className="inline-flex items-center text-zinc-600 dark:text-blue-400 hover:text-zinc-800 dark:hover:text-blue-300"
                   >
                     Ler mais
                     <svg
