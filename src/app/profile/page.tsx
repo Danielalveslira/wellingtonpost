@@ -130,6 +130,31 @@ export default function ProfilePage() {
                 E-mail 👋
               </a>
             </div>
+
+            <div className="pt-2 sm:pt-0 sm:ml-auto">
+              <a
+                href="/curriculo_wellington_daniel.pdf" // Nome do seu arquivo lá na pasta public
+                download="Wellington_Daniel_Curriculo.pdf" // Nome que o arquivo terá quando a pessoa baixar
+                className="inline-flex items-center gap-2 px-5 py-2.5 bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-sm font-bold rounded-full shadow-sm hover:bg-gray-800 dark:hover:bg-gray-100 transition-all active:scale-95"
+              >
+                {/* Ícone de Download em SVG */}
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                  />
+                </svg>
+                Baixar CV
+              </a>
+            </div>
           </section>
         </div>
       </div>
