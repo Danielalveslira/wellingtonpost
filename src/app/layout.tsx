@@ -134,7 +134,7 @@ export default function RootLayout({
                 <div className="hidden peer-checked:block border-t border-gray-200 dark:border-gray-700">
                   <div className="flex flex-row flex-wrap space-x-4 px-2 py-4">
                     <Link
-                      href="/about"
+                      href="/blog"
                       className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium"
                     >
                       <svg
@@ -195,7 +195,7 @@ export default function RootLayout({
 
                 <div className="flex items-center space-x-8">
                   <Link
-                    href="/about"
+                    href="/blog"
                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium"
                   >
                     <svg
